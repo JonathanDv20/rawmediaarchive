@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000; /* Fondo negro */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #222; /* Fondo gris oscuro para contraste */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más suave */
+    text-align: center;
+    width: 300px;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Añadido para darle un borde redondeado al logo */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fff; /* Texto blanco */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #ccc; /* Texto gris claro */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #444; /* Bordes oscuros */
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #333; /* Fondo de los inputs oscuro */
+    color: #fff; /* Texto de los inputs blanco */
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}

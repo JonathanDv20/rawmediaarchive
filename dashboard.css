@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000; /* Fondo negro */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+}
+
+.video-container {
+    position: absolute;
+    width: 450px; /* Ancho actualizado del video */
+    height: 300px; /* Altura actualizada del video */
+    border: 2px solid #fff; /* Borde blanco para que resalte */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden;
+}
+
+/* Posición específica del primer video */
+#video1 {
+    top: 20px;
+    left: 20px;
+}
+
+/* Posición específica del segundo video (al lado del primero) */
+#video2 {
+    top: 20px;
+    left: 490px; /* Se coloca a la derecha del primer video */
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
